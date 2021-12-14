@@ -25,9 +25,13 @@ img{
 .navbar{
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
 }
+.nav-link.active, .nav-item .nav-link.active {
+    background: -webkit-linear-gradient(#00e0fe, #1107fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 //Hero Section
-
 #home{
     background-image: url(../images/bg1.jpg);
     background-position: center;
