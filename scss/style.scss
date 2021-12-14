@@ -14,10 +14,7 @@ a{
     font-weight: 600;
     transition: all 0.4s ease;
 }
-section{
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
+
 img{
     width: 100%;
 }
@@ -38,12 +35,11 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    .overlay{
+        background: linear-gradient(rgba(77, 77, 77, 0.7), rgba(17, 7, 254, 0.7));
+    }
 }
-.overlay{
-    background: linear-gradient(rgba(77, 77, 77, 0.7), rgba(17, 7, 254, 0.7));
-}
+
 
 //Service Section
 .divider{
@@ -52,23 +48,65 @@ img{
     background: linear-gradient(to right, #00e0fe, #1107fe);
     margin: 16px auto;
 }
-.service{
-    .service-img{
-        position: relative;
-        .icon{
-            width: 80px;
-            height: 80px;
-            color: #fff;
-            background: linear-gradient(to right, #00e0fe, #1107fe);
-            border-radius: 100px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: absolute;
-            bottom: -40px;
-            left: 50%;
-            transform: translateX(-50%);
-            i{ font-size: 40px; }
+#services{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .service{
+        .service-img{
+            position: relative;
+            .icon{
+                width: 80px;
+                height: 80px;
+                color: #fff;
+                background: linear-gradient(to right, #00e0fe, #1107fe);
+                border-radius: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                bottom: -40px;
+                left: 50%;
+                transform: translateX(-50%);
+                i{ font-size: 40px; }
+            }
         }
     }
 }
+
+//About Section
+#about{
+    background-image: url(../images/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    .overlay{
+        background: linear-gradient(rgba(77, 77, 77, 0.7), rgba(17, 7, 254, 0.7));
+        min-height: 70vh;
+    }
+    .play-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .play-btn a{
+        color: #fff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        transition: all 0.6s ease;
+        font-size: 50px;
+    }
+    .play-btn a:hover{
+        color: goldenrod;
+    }
+}
+
+#features{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
