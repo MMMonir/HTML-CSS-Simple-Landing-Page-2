@@ -141,6 +141,7 @@ img {
 
 #features .icon i {
   font-size: 60px;
+  width: 60px;
   background: -webkit-linear-gradient(#00e0fe, #1107fe);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
