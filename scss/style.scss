@@ -181,9 +181,23 @@ form .form-control:focus{
 form .form-control::placeholder{
     color: #fff;
 }
-
-
-
-
-
-
+footer{
+    background-color: #20212c;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.social-icon i{
+    color: #000;
+    font-size: 20px;
+    padding: 5px;
+    margin: 2px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: all 0.4s ease;
+}
+.social-icon i:hover{
+    background-color: transparent;
+    color: goldenrod;
+}
