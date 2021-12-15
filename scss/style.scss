@@ -10,6 +10,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 a{
+    color: #20212c;
     text-decoration: none;
     font-weight: 600;
     transition: all 0.4s ease;
@@ -149,6 +150,36 @@ img{
             }
         }
     }
+}
+
+#blog{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#contact{
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    .overlay{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background: linear-gradient(rgba(77, 77, 77, 0.7), rgba(17, 7, 254, 0.7));
+        min-height: 70vh;
+    }
+}
+form .form-control{
+    background-color: transparent;
+    color: #fff;
+}
+form .form-control:focus{
+    color: orange;
+    background-color: transparent;
+}
+form .form-control::placeholder{
+    color: #fff;
 }
 
 
