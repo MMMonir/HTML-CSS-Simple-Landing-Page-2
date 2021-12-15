@@ -28,7 +28,6 @@ img{
   -webkit-text-fill-color: transparent;
 }
 
-//Hero Section
 #home{
     background-image: url(../images/bg.jpg);
     background-position: center;
@@ -40,8 +39,6 @@ img{
     }
 }
 
-
-//Service Section
 .divider{
     height: 4px;
     width: 70px;
@@ -55,8 +52,8 @@ img{
         .service-img{
             position: relative;
             .icon{
-                width: 80px;
-                height: 80px;
+                width: 70px;
+                height: 70px;
                 color: #fff;
                 background: linear-gradient(to right, #00e0fe, #1107fe);
                 border-radius: 100px;
@@ -73,7 +70,6 @@ img{
     }
 }
 
-//About Section
 #about{
     background-image: url(../images/bg.jpg);
     background-position: center;
@@ -108,8 +104,8 @@ img{
     padding-top: 100px;
     padding-bottom: 100px;
     .icon i{
-        font-size: 80px;
-        width: 80px;
+        font-size: 65px;
+        width: 65px;
         background: -webkit-linear-gradient(#00e0fe, #1107fe);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -131,5 +127,32 @@ img{
         color: #fff;
     }
 }
+
+#review{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .review{
+        box-shadow: 0 12px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        .stars{
+            color: orange;
+        }
+        .person{
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+            padding-bottom: 25px;
+            img{
+                width: 75px;
+                height: 75px;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+
+
+
 
 
